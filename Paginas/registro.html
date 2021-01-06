@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="../css/registro.css" />
+</head>
+<body>
+<center>
+	<div id="marco">
+	<header>
+	<h1>TheGameShack</h1>
+	<center><img  id="logo" src="../imagenes/Logo/Logo.png" alt="Logo"></center>
+	</header>
+
+	<section>
+	<form method="post" id="frm1" >
+		<table>
+			<tr>
+				<td colspan="2">
+				<h2>Registro de Compra</h2>
+				
+				</td>
+			</tr>
+			<tr>
+				<td>Documento Indentidad:</td>
+				<td><input name="dni"></td>
+			</tr>	
+			<tr>
+				<td>Nombre:</td>
+				<td><input name="nombre"></td>
+			</tr>
+			<tr>
+				<td>Apellido:</td>
+				<td><input name="apellido"></td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td><input name="email"></td>
+			</tr>
+			<tr>
+				<td>Numero Producto:</td>
+				<td><input name="nroproducto"></td>
+			</tr>
+			<tr>
+				<td>Tarjeta Credito:</td>
+				<td><input name="tarjeta"></td>
+			</tr>
+			
+			<tr>
+				<td><input type="reset" value="LIMPIAR"></td>
+				<td><input type="button" onClick="validar()"  value="REALIZAR COMPRA" ></td>
+			</tr>
+			</table>
+	</form>
+	</section>
+	</div>
+</center></body>
+<script src="../js/registro.js"></script>
+<script src="../js/jquery-3.2.1.js"></script>
+</html>

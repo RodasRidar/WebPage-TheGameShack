@@ -1,0 +1,202 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{
+margin: 0; 
+padding: 10px; 
+} 
+
+header img{ 
+	display: block;
+
+} 
+div.presentacion{
+	display: flex; 
+	flex-direction: row; 
+	width: 100%;
+}  
+div.presentacion p{ 
+	width: 35%;
+margin-right: 10px; 
+ text-align: center; 
+margin-bottom: 15%; 
+padding-top: 20px;
+}
+ p.pe{
+width: 40%;	
+}
+body{
+background-color: whitesmoke;
+margin: 10px; 
+width: 100%;
+border-radius: 20px;
+
+} 
+#Contenedor{
+width: 95%;
+margin: 30px auto;
+display: flex; 
+flex-direction: column; 
+padding: 0px 20px 0px 20px;
+}  
+main{
+ padding-bottom: 45px;
+
+} 
+ul.ppu{
+width: 25%;
+} 
+aside{
+display: flex; 
+flex-direction: row; 
+}  
+div.Juego{
+width: 70%;
+} 
+div.Juego p{
+width: 50%;
+}
+aside p{
+margin-right: 50%;
+	text-align: justify;
+} 
+aside.Escoger{
+display: flex; 
+flex-direction: row;
+}
+aside.pp{
+width: 10%;	
+}
+aside.SucursalyProductos{
+display: block;
+}
+h2.Productos{
+text-align: right;
+}
+ul{
+padding: 0px 0px 0px 55px; 
+} 
+li{
+padding: 30px;
+}
+section{
+padding-top: 50px;
+}
+div.articles{
+display: flex; 
+flex-direction: row; 
+
+
+}
+div.articles article{  
+margin: 25px;
+	text-align: center;
+justify-content: center;
+	font-weight: bold;
+
+}
+
+div.articles img{
+width: 95%;
+	border-radius: 20px;
+} 
+article.proximasadquisiciones{
+display: block; 
+padding-bottom: 50px;
+	
+}
+footer{ 
+width: 100%;
+margin: 0px;
+padding-top: 20px;
+	
+}  
+footer h2{
+text-align: center;
+	border-radius: 20px;
+	
+} 
+footer a{
+display:block; 
+padding-bottom: 20px;
+	
+} 
+p.Encuentranos{
+padding-bottom: 20px;
+	
+}
+div.piedepagina{
+display: flex; 
+flex-direction: row;
+	border: 2px solid black;
+	border-radius: 20px;
+}
+div.footer{
+display: block; 
+width: 31.6%; 
+margin: 0px;
+	border: 2px solid black;
+	border-radius: 20px;
+} 
+div.footer2{
+display: block; 
+width: 31.6%; 
+margin: 0px; 
+float: right; 
+text-align: center;
+	border: 2px solid black;
+	border-radius: 20px;
+} 
+div.derechos{
+width: 31.6%; 
+text-align: center;
+	border: 2px solid black;
+	border-radius: 20px;
+} 
+ul.ppu p{ 
+	width: 75%;
+	text-decoration: none;
+	color: darkred;
+	background-color: gray;
+	border-radius: 20px; 
+}
+#logo{
+	border-radius: 20px;
+	background-color: darkred;
+	width: auto;
+}
+nav{
+	text-align: center;
+}
+a{
+background-color: darkred; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+#logo{
+	border-radius: 20px;
+	background-color: darkred;
+	width: auto;
+}
+h2{
+	border: 2px solid darkred;  
+font: normal normal 25px Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black," sans-serif";  
+color:dimgrey;  
+letter-spacing: 2px; 
+text-align: center; 
+text-transform: uppercase; 
+padding: 10px;  
+border-radius: 30px 0px 30px 0px; 
+}
+img{
+	border:3px groove white;
+}

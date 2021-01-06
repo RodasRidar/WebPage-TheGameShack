@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{
+margin: 0; 
+border:1px solid blue;
+padding: 10px; 
+} 
+
+header img{ 
+	display: block;
+
+}
+body{
+background-color: antiquewhite;
+margin: 10px; 
+width: 100%;
+
+} 
+#Contenedor{
+width: 95%;
+margin: 30px auto;
+display: flex; 
+flex-direction: column; 
+padding: 0px 20px 0px 20px;
+}  
+main{
+ padding-bottom: 45px;
+
+} 
+ul.ppu{
+width: 25%;
+}
+aside{
+display: flex; 
+flex-direction: row; 
+}  
+aside p{
+margin-right: 50%;
+} 
+
+aside.pp{
+width: 10%;	
+}
+aside.SucursalyProductos{
+display: block;
+}
+h2.Productos{
+text-align: right;
+}
+ul{
+padding: 0px 0px 0px 55px; 
+} 
+li{
+padding: 30px;
+}
+section{
+padding-top: 50px;
+}
+div.articles{
+display: flex; 
+flex-direction: row; 
+
+
+} 
+div.articles article{  
+margin: 25px;
+
+}
+div.articles img{
+width: 95%;
+} 
+article.proximasadquisiciones{
+display: block; 
+padding-bottom: 50px;
+	
+}
+footer{ 
+width: 100%;
+margin: 0px;
+padding-top: 20px;}  
+footer h2{
+text-align: center;
+} 
+footer a{
+display:block; 
+padding-bottom: 20px;
+} 
+p.Encuentranos{
+padding-bottom: 20px;
+}
+div.piedepagina{
+display: flex; 
+flex-direction: row;
+}
+div.footer{
+display: block; 
+width: 31.6%; 
+margin: 0px;
+} 
+div.footer2{
+display: block; 
+width: 31.6%; 
+margin: 0px; 
+float: right; 
+text-align: center;
+} 
+div.derechos{
+width: 31.6%; 
+text-align: center;
+} 
+ 
